@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: WildlifeTracker_development
+
+test:
+  adapter: postgresql
+  database: WildlifeTracker_test
