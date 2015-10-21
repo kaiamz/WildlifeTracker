@@ -1,4 +1,4 @@
-Wildlife Tracker - Work in Progress
+Wildlife Tracker - <b>Work in Progress</b>
 
 There are 2 different tables. One table lists the species. The second table lists the sightings with Date, longitude and latitude. 
 
