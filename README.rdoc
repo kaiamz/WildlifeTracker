@@ -1,28 +1,10 @@
-== README
+Wildlife Tracker - Work in Progress
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+There are 2 different tables. One table lists the species. The second table lists the sightings with Date, longitude and latitude. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Validations include: 
+* Species name field cannot be blank and cannot contain numerical value
+* Data cannot be in the future.
+* Longitude and Latitude cannot be blank and has a numerical value
+* Species has one
+* Sightings has many
